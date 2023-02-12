@@ -18,6 +18,9 @@ def answer(lines: str) -> int:
                 sum += lineValue
             position += 1
 
+    if(sum == 0):
+        return "EMPTY"
+
     return sum
 
 if __name__ == '__main__':
